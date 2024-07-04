@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container .nav-items-container {
+    padding-right: 11rem;
+    padding-top: 0.5rem;
+}
+.nav-container .nav-items-container .nav-items {
+    display: flex;
+    list-style: none;
+}
+
+.nav-items .nav-link {
+    margin-left: 2rem;
+}
+
+.nav-items .nav-link > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-items .nav-link > a:hover {
+    opacity: 0.7;
+}
+
+.nav-container .nav-logo {
+    padding-left: 11rem;
+    padding-top: 1.5rem;
+}
+
+.nav-container .nav-logo > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.header-container {
+    background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-container .header-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+
+.header-content {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.4rem;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-main {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.w-30 {
+    width: 32%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.section-content {
+    font-size: 1.2rem;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.mb-2 {
+    margin-bottom: 3rem;
+}
+.btn, .contact-form-btn {
+    border: none;
+    border-radius: 10rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1.2rem 1.2rem;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff; 
+    color: black;
+
+}
+
+.divider {
+    background-color: red;
+    border: none;
+    height: 0.15rem;
+    width: 7%;
+}
+
+.divider-white {
+    background-color: white;
+}
+
+.services-container {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.service-icon {
+    color: red;
+    font-size: 2.5rem;
+}
+
+.service-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.service-description {
+    font-size: 1.2rem;
+}
+
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: gray;
+    padding: 2.5rem 0;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-wrapper {
+    width: 33.333333333%;
+    position: relative;
+    
+}
+.project-img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.project-wrapper:hover .project-infos {
+    display: flex; 
+    cursor: pointer;
+}
+
+.project-infos {
+    background-color: red;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.project-category {
+    margin: 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.project-name {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.contact-input-wrapper {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 1.2rem 0 1.2rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-input-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 1.2rem;
+}
+
+.phonenumber-wrapper {
+    margin-top: 3rem;
+}
